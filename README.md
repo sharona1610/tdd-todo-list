@@ -20,7 +20,9 @@ Your tests should be written inside the `test/todo_tests.js` file and your imple
 
 Todos should be stored as an array of Todo Objects. Each instance of a Todo should store a unique id that can be used to find it later. Use the included UUID generator to add one upon creation.
 
-You should as a minimum implement the following features. Each will likely require more than one test to ensure that the requirement is met and robust.
+You should as a minimum implement the following features. Each will likely require more than one test to ensure that the requirement is met and robust. 
+
+Hint: Write tests in whichever order makes the most sense, not from top to bottom. 
 
 ### CREATE
 
