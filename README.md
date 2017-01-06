@@ -22,12 +22,12 @@ Todos should be stored as an array of Todo Objects. Each instance of a Todo shou
 
 You should as a minimum implement the following features. Each will likely require more than one test to ensure that the requirement is met and robust. 
 
-Hint: Write tests in whichever order makes the most sense, not from top to bottom. 
+_**Hint:** Write tests in whichever order makes the most sense, not from top to bottom._
 
 ### CREATE
 
 #### Create(params)
-* Should be able to create a new Todo with the following KVPs in the `params` object:
+* Should be able to create a new Todo with the following KVPs in the passed in as params:
   * `name`
   * `description`
   * `completed` (true/false)
@@ -49,7 +49,7 @@ Hint: Write tests in whichever order makes the most sense, not from top to botto
 
 #### Update(id, updatedParams)
 * Should be able to update the Todo with the given id, using the following KVPs in the `updatedParams` object:
-  * `name
+  * `name`
   * `description`
   * `completed` (true/false)
 * Should allow individual fields to be updated
