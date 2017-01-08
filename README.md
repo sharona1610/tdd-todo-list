@@ -27,7 +27,7 @@ _**Hint:** Write tests in whichever order makes the most sense, not from top to 
 ### CREATE
 
 #### Create(params)
-* Should be able to create a new Todo with the following KVPs in the passed in as params:
+* Should be able to create a new Todo with the following KVPs in the `params` object:
   * `name`
   * `description`
   * `completed` (true/false)
