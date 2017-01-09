@@ -1,6 +1,6 @@
 const uuidGenerator = require('uuid/v4')
 
-var todos = []
+let todos = []
 
 // CREATE - params should be an object with keys for name, description and completed
 function create (params) {
